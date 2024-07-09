@@ -4,10 +4,12 @@
     <div class="min-h-screen flex flex-col gap-8 p-4 sm:p-6 bg-gray-100 text-gray-900 dark:bg-dark-eval-0 dark:text-gray-100">
         <div class="flex-1 flex flex-col items-center justify-center gap-6">
             <div>
-                <Link :href="'/'">
+
+                <p class="text-3xl">KML</p>
+                <!-- <Link :href="'/'">
                     <ApplicationLogo aria-hidden="true" class="w-16 h-16" />
                     <span class="sr-only">Home page</span>
-                </Link>
+                </Link> -->
             </div>
 
             <div class="w-full sm:max-w-md p-4 sm:p-6 bg-white rounded-md shadow-md overflow-hidden dark:bg-dark-eval-1">
@@ -16,7 +18,8 @@
         </div>
         <page-footer />
 
-        <div class="fixed right-10 top-10">
+
+        <!-- <div class="fixed right-10 top-10">
             <Button
                 iconOnly
                 variant="secondary"
@@ -37,7 +40,7 @@
                     :class="iconSizeClasses"
                 />
             </Button>
-        </div>
+        </div> -->
     </div>
 </template>
 

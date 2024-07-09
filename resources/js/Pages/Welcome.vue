@@ -9,17 +9,20 @@
 
             <template v-else>
                 <Link :href="route('login')" class="text-sm text-gray-700 underline">
-                    Log in
+                    Ingresar
                 </Link>
 
                 <Link v-if="canRegister" :href="route('register')" class="ml-4 text-sm text-gray-700 underline">
-                    Register
+                    Registrarse
                 </Link>
             </template>
         </div>
-<div>
-    KML-ANT
-</div>
+        
+        <div>
+            <p class="text-9xl">KML</p>
+
+            
+        </div>
 
     </div>
 </template>
