@@ -10,7 +10,7 @@
         ]"
     >
         <div class="flex items-center gap-2">
-            <Button
+            <!-- <Button
                 iconOnly
                 variant="secondary"
                 type="button"
@@ -29,10 +29,10 @@
                     aria-hidden="true"
                     :class="iconSizeClasses"
                 />
-            </Button>
+            </Button> -->
         </div>
         <div class="flex items-center gap-2">
-            <Button
+            <!-- <Button
                 iconOnly
                 variant="secondary"
                 type="button"
@@ -51,7 +51,7 @@
                     aria-hidden="true"
                     :class="iconSizeClasses"
                 />
-            </Button>
+            </Button> -->
 
             <Button
                 iconOnly
@@ -195,8 +195,9 @@
         </Button>
 
         <Link :href="route('dashboard')">
-            <ApplicationLogo class="w-10 h-10" />
-            <span class="sr-only">K UI</span>
+            <!-- <ApplicationLogo class="w-10 h-10" /> -->
+            <p class="w-10 h-10" >KML</p>
+            <span class="sr-only">KML</span>
         </Link>
 
         <Button
