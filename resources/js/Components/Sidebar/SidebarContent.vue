@@ -5,7 +5,7 @@
         class="relative flex flex-col flex-1 max-h-full gap-4 px-3"
     >
         <SidebarLink
-            title="Dashboard"
+            title="Inicio"
             :href="route('dashboard')"
             :active="route().current('dashboard')"
         >
@@ -15,7 +15,75 @@
                     aria-hidden="true"
                 />
             </template>
-        </SidebarLink>
+        </SidebarLink
+            title="Mapa zona 1"
+        >
+
+
+
+
+        <SidebarCollapsible
+            icon="mdi:note-outline"
+            title="Mapa 1"
+            :active="route().current('/dashboard')"
+        >
+            <SidebarCollapsibleItem
+                :to="{ name: 'Blank' }"
+                title="ZN1"
+                :active="route().current('Blank')"
+            />
+
+            <SidebarCollapsibleItem
+                :to="{ name: 'Blank' }"
+                title="ZN2"
+                :active="route().current('Blank')"
+            />
+
+        </SidebarCollapsible>
+
+        
+        <SidebarCollapsible
+            icon="mdi:note-outline"
+            title="Mapa 2"
+            :active="route().current('/dashboard')"
+        >
+            <SidebarCollapsibleItem
+                :to="{ name: 'Blank' }"
+                title="ZN1"
+                :active="route().current('Blank')"
+            />
+
+            <SidebarCollapsibleItem
+                :to="{ name: 'Blank' }"
+                title="ZN2"
+                :active="route().current('Blank')"
+            />
+
+        </SidebarCollapsible>
+
+
+        <SidebarCollapsible
+            icon="mdi:note-outline"
+            title="Mapa 3"
+            :active="route().current('/dashboard')"
+        >
+            <SidebarCollapsibleItem
+                :to="{ name: 'Blank' }"
+                title="ZN1"
+                :active="route().current('Blank')"
+            />
+
+            <SidebarCollapsibleItem
+                :to="{ name: 'Blank' }"
+                title="ZN2"
+                :active="route().current('Blank')"
+            />
+
+        </SidebarCollapsible>
+
+ 
+ 
+
     </PerfrectScrollbar>
 </template>
 
@@ -23,4 +91,6 @@
 import PerfrectScrollbar from '@/Components/PerfectScrollbar'
 import SidebarLink from '@/Components/Sidebar/SidebarLink.vue'
 import { DashboardIcon } from '@/Components/Icons/Outline'
+import SidebarCollapsibleItem from '@/Components/Sidebar/SidebarCollapsibleItem.vue'
+import SidebarCollapsible from '@/Components/Sidebar/SidebarCollapsible.vue'
 </script>
