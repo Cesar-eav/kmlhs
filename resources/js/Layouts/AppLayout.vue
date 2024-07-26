@@ -9,7 +9,7 @@
             :class="[
                 'min-h-screen flex flex-col',
                 {
-                    'lg:ml-64': sidebarState.isOpen,
+                    'lg:ml-80': sidebarState.isOpen,
                     'md:ml-16': !sidebarState.isOpen,
                 },
             ]"

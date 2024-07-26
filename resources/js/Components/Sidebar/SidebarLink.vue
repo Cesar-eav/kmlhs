@@ -7,15 +7,15 @@
             {
                 'text-gray-500 hover:text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-gray-300 dark:hover:bg-dark-eval-2':
                     !active,
-                'text-white bg-purple-500 shadow-lg hover:bg-purple-600':
+                'text-white bg-blue-500 shadow-lg hover:bg-blue-600':
                     active,
             },
         ]"
         :href="href"
     >
-        <slot name="icon">
+        <!-- <slot name="icon">
             <EmptyCircleIcon aria-hidden="true" class="flex-shrink-0 w-6 h-6" />
-        </slot>
+        </slot> -->
 
         <span
             class="text-base font-medium"
@@ -32,14 +32,14 @@
             {
                 'text-gray-400 hover:text-gray-500 hover:bg-gray-100 dark:hover:text-gray-300 dark:hover:bg-dark-eval-2':
                     !active,
-                'text-white bg-purple-500 shadow-lg hover:bg-purple-600':
+                'text-white bg-blue-300 shadow-lg hover:bg-blue-400':
                     active,
             },
         ]"
     >
-        <slot name="icon">
+        <!-- <slot name="icon">
             <EmptyCircleIcon aria-hidden="true" class="flex-shrink-0 w-6 h-6" />
-        </slot>
+        </slot> -->
 
         <span
             class="text-base font-medium"

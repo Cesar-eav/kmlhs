@@ -3,7 +3,7 @@
         <Link :href="route('dashboard')" class="inline-flex items-center gap-2">
             <span class="sr-only">KML</span>
             <!-- <ApplicationLogo aria-hidden="true" class="w-10 h-auto" /> -->
-             <P aria-hidden="true" class="w-10 h-auto">KML</P>
+             <P aria-hidden="true" class="w-10 h-auto text-white text-xl pl-32">KML</P>
         </Link>
 
         <Button 

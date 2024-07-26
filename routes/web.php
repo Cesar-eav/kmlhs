@@ -32,4 +32,18 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return Inertia::render('Dashboard');
     })->name('dashboard');
+
+    Route::get('/mapa1', function () {
+        return Inertia::render('Mapas/Mapa1');
+    })->name('mapa1');
+
+    Route::get('/mapa2', function () {
+        return Inertia::render('Mapas/Mapa1');
+    })->name('mapa2');
+
+    Route::get('/antucoyabarriocivico', function () {
+        return Inertia::render('Mineras/Antucoya/BarrioCivico');
+    })->name('antucoyabarriocivico');
+
+
 });
