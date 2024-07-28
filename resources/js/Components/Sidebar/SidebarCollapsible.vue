@@ -30,7 +30,7 @@
                     class="relative block w-6 h-6 ml-auto"
                 >
                     <span
-                        :class="[
+                        :class="[ 
                             'absolute right-[9px] bg-gray-400 mt-[-5px] h-2 w-[2px] top-1/2 transition-all duration-200',
                             {
                                 '-rotate-45': isOpen,
@@ -61,7 +61,7 @@
                 v-show="
                     isOpen && (sidebarState.isOpen || sidebarState.isHovered)
                 "
-                class="overflow-hidden transition-all duration-200 max-h-60"
+                class="PROBANDO overflow-hidden transition-all duration-200 max-h-100"
             >
                 <ul
                     class="relative px-0 pt-2 pb-0 ml-5  before:w-0 before:block before:absolute before:inset-y-0 before:left-0 before:border-l-2 before:border-l-gray-200 dark:before:border-l-gray-600"

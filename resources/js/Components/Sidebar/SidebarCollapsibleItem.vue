@@ -14,8 +14,8 @@
             :class="[
                 'transition-colors hover:text-gray-500 dark:hover:text-gray-100',
                 {
-                    'text-gray-600 font-bold': active,
-                    'text-gray-400 ': !active,
+                    'text-white dark:text-gray-200 font-bold': active,
+                    'text-gray-300 dark:text-gray-400': !active,
                 },
             ]"
             @click="handleClick"
@@ -46,10 +46,8 @@ const Tag = props.external ? 'a' : props.href ? Link : 'button'
 
 const handleClick = (event) => {
     if (Tag === 'button') {
-        console.log("22222222");
         event.preventDefault();
         if (props.onClick) {
-            console.log("333333333");
             props.onClick(event);
         }
     }

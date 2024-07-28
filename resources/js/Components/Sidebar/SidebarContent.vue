@@ -36,7 +36,8 @@
                 <SidebarCollapsibleItem title="Item" :href="'#'"> </SidebarCollapsibleItem>
             </SidebarCollapsible>
 
-            <SidebarCollapsible title="Torre de Transferencia" :href="route('mapa2')" :active="route().current('mapa2')">
+            <SidebarCollapsible title="Torre de Transferencia" :href="route('mapa2')"
+                :active="route().current('mapa2')">
                 <SidebarCollapsibleItem title="Item" :href="'#'"> </SidebarCollapsibleItem>
                 <SidebarCollapsibleItem title="Item" :href="'#'"> </SidebarCollapsibleItem>
             </SidebarCollapsible>
@@ -47,7 +48,7 @@
             </SidebarCollapsible>
 
         </SidebarCollapsible>
-<!-- 
+        <!-- 
         <SidebarCollapsible title="Chancao Primario" :href="route('mapa1')" :active="route().current('mapa1')">
             <SidebarCollapsibleItem title="Aglomerado" :href="'#'"> </SidebarCollapsibleItem>
             <SidebarCollapsibleItem title="Aglomerado" :href="'#'"> </SidebarCollapsibleItem>
@@ -55,7 +56,7 @@
         </SidebarCollapsible> -->
 
 
-<!-- 
+        <!-- 
         <SidebarCollapsibleItem title="Chancao Primario"> </SidebarCollapsibleItem>
         <SidebarCollapsibleItem title="Proceso Mina">
         </SidebarCollapsibleItem>
