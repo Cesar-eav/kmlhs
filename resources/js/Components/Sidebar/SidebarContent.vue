@@ -15,9 +15,9 @@
             :isOpen="openSubmenu === 'configuracion-Antucoya'" @toggle="toggleSubmenu('configuracion-Antucoya')">
             <!-- Submenú interno: Proceso Mina -->
             <SidebarCollapsible title="Proceso Mina" :href="route('mapa1')" :active="route().current('mapa1')">
-                <SidebarCollapsibleItem title="Operacion Mina" :href="'mapa1'"> </SidebarCollapsibleItem>
-                <SidebarCollapsibleItem title="Barrio Cívico" :href="'#'"> </SidebarCollapsibleItem>
-                <SidebarCollapsibleItem title="TruckShop" :href="'#'"> </SidebarCollapsibleItem>
+                <SidebarCollapsibleItem title="Operacion Mina" :href="'/mapa1'"> </SidebarCollapsibleItem>
+                <SidebarCollapsibleItem title="Barrio Cívico" :href="'/#'"> </SidebarCollapsibleItem>
+                <SidebarCollapsibleItem title="TruckShop" :href="'/#'"> </SidebarCollapsibleItem>
 
 
             </SidebarCollapsible>
