@@ -24,7 +24,7 @@
                 <font-awesome-icon :icon="['fas', 'bolt']" class="text-blue-900 text-6xl" />
                 <p class="text-9xl text-black font-bold ml-4">KML</p>
             </div>
-            <h1 class="text-4xl font-semibold text-blue-900">Riesgos en sistemas Eléctricos</h1>
+            <h1 class="text-4xl font-semibold text-blue-900">Riesgos Eléctricos en Minería</h1>
             <p class="text-lg text-black mt-4">Identificación de riesgos asociados con la electricidad.</p>
         </div>
 
