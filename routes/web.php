@@ -1,8 +1,9 @@
 <?php
 
-use Illuminate\Foundation\Application;
-use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use Illuminate\Support\Facades\Route;
+use Illuminate\Foundation\Application;
+use App\Http\Controllers\ApiKeyController;
 
 /*
 |--------------------------------------------------------------------------
@@ -44,6 +45,9 @@ Route::middleware([
     Route::get('/antucoyabarriocivico', function () {
         return Inertia::render('Mineras/Antucoya/BarrioCivico');
     })->name('antucoyabarriocivico');
+
+
+    Route::get('/api-key', [ApiKeyController::class, 'getApiKey']);
 
 
 });
