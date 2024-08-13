@@ -34,6 +34,18 @@
                 </a>
             </div>
         </div>
+
+        <GMapMap
+      :center="{ lat: 37.7749, lng: -122.4194 }"
+      :zoom="10"
+      style="width: 100%; height: 500px"
+    >
+      <GMapMarker
+        :position="{ lat: 37.7749, lng: -122.4194 }"
+        :clickable="true"
+        :draggable="true"
+      />
+    </GMapMap>
     </AppLayout>
 </template>
 
